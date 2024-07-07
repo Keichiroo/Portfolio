@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenjie's Portfolio</title>
+    <link rel="icon" href="asset/icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="database" href="database.php">
+</head>
+<body background="bg2.png">
+    <div class="container">
+        <header>
+            <div class="hero">
+                <h1>My Portfolio</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#Photography">Photography</a></li>
+                        <li><a href="#Posters">Posters</a></li>
+                        <li><a href="#Editing Demo Reel">Editing Demo Reel</a></li>
+                        <li><a href="#Embroidery Program">Embroidery Program</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <p>Greetings, I'm Kenjie Consulta. You can hire me for Video Editing, Photography, Poster, and even Layout Embroidery.<br>
+                Feel free to browse & Contact me for Comissions!</p>
+            <div class="about-content">
+                <img src="asset/profile.png" alt="Profile Picture" class="profile-pic">
+                <p>I specialize in Video Editing and Graphic Design. I am open to potential clients and eager to further understand the limits and possibilities of these creative fields. My goal is to deliver high-quality, customized projects that meet the unique needs and visions of each client. Whether you're looking for photograph or compelling video editing, I'm dedicated to bringing your ideas to life with precision and creativity.</p>
+            </div>
+        </section>
+
+        <section id="Photography" class="projects-section">
+            <h2>Photography</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="asset/pic1.png" alt="Art 1" onclick="openModal('asset/pic1.png', 'Project 1')">
+                    <div class="project-info">
+                        <h3>Vigan City</h3>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="asset/pic2.png" alt="Project 2" onclick="openModal('asset/pic2.png', 'Project 1')">
+                    <div class="project-info">
+                        <h3>Transfiguration</h3>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="asset/pic3.png" alt="Project 3" onclick="openModal('asset/pic3.png', 'Project 1')">
+                    <div class="project-info">
+                        <h3>Engagement</h3>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="asset/pic4.png" alt="Project 3" onclick="openModal('asset/pic4.png', 'Project 1')">
+                    <div class="project-info">
+                        <h3>Plains</h3>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="asset/pic5.png" alt="Project 3" onclick="openModal('asset/pic5.png', 'Project 1')">
+                    <div class="project-info">
+                        <h3>Shoto (Short Light)</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="Posters" class="projects-section">
+            <h2>Posters</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="asset/poster3.png" alt="Art 1" onclick="openModal('asset/poster3.png', 'Project 1')">
+                    <div class="project-info">
+                        <h3>Magazine</h3>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="asset/poster2.png" alt="Project 2" onclick="openModal('asset/poster2.png', 'Project 1')">
+                    <div class="project-info">
+                        <h3>TLOZ MM</h3>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="asset/Poster1.png" alt="Project 3" onclick="openModal('asset/poster1.png', 'Project 1')">
+                    <div class="project-info">
+                        <h3>Poster</h3>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="asset/poster4.png" alt="Project 3" onclick="openModal('asset/poster4.png', 'Project 1')">
+                    <div class="project-info">
+                        <h3>Editoryal</h3>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="asset/poster5.png" alt="Project 3" onclick="openModal('asset/poster5.png', 'Project 1')">
+                    <div class="project-info">
+                        <h3>Flyers</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Editing Demo Reel" class="projects-section">
+            <h2>Editing Demo Reel</h2>
+            <video controls autoplay muted loop width="720" height="auto">
+                <source src="asset/Demo.mp4" type="video/mp4"></video>
+        </section>
+
+        <section id="Embroidery Program" class="projects-section">
+            <h2>Embroidery Program</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="asset/emb1.png" alt="Art 1" onclick="openModal('asset/emb1.png', 'Project 1')">
+                    <div class="project-info">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="asset/emb2.png" alt="Project 2" onclick="openModal('asset/emb2.png', 'Project 1')">
+                    <div class="project-info">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="asset/emb3.png" alt="Project 3" onclick="openModal('asset/emb3.png', 'Project 1')">
+                    <div class="project-info">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="asset/emb4.png" alt="Project 3" onclick="openModal('asset/emb4.png', 'Project 1')">
+                    <div class="project-info">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="asset/emb5.png" alt="Project 3" onclick="openModal('asset/emb5.png', 'Project 1')">
+                    <div class="project-info">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img src="" alt="" id="modalImg">
+        <div id="caption"></div>
+    </div>
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
